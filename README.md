@@ -11,5 +11,5 @@ scp -i clavepc2.pem -r html/ ubuntu@3.137.107.55:/var/www/
 
 Se creo un LoadBalancer con las 2 instancias creadas anteriormente.
 
-Se obtuvo un dominio gratuito en dominiosa1.com el cual fue http://www.redes2-201700944.mire.tv/ y se utilo el servicio de Route53 de AWS para enlazar el dominio
+Se obtuvo un dominio gratuito en dominiosa1.com el cual fue http://www.redes2-201700944.mire.tv/ y se utilizo el servicio de Route53 de AWS para enlazar el dominio
 con el balanceador de carga creado con nuestras 2 instancias de EC2.
